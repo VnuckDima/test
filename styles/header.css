@@ -6,16 +6,11 @@
 }
 
 .title-logo {
-  width: 295px;
   height: 67px;
 }
 
 .home-wrapper {
-  width: 100%;
-  height: 100vh;
   background: url("../assets/images/home-image/cyberpunk.png") no-repeat;
-  display: flex;
-  justify-content: space-between;
 }
 
 .link-icon-wrapper {
@@ -23,16 +18,8 @@
   height: 30px;
 }
 
-.header-wrapper__wrapper {
-  display: flex;
-  height: 67px;
-}
-
 .header-wrapper {
-  width: 1360px;
   height: 67px;
-  /*  display: flex;
-  justify-content: space-between; */
 }
 
 .header-wrapper__title-logo {
@@ -43,47 +30,35 @@
 .main-header {
   width: 100%;
   height: 100vh;
-  /* display: flex;
-  justify-content: center; */
-  /* align-items: center; */
-  /*   position: relative; */
+  display: flex;
+  justify-content: center;
 }
 
 .aside-wrapper-home {
   width: 1360px;
-  /* max-width: 1920px; */
   height: 370px;
   border: 1px solid purple;
-  /*  display: flex;
-  justify-content: end;
-  align-items: flex-end; */
-  /* position: absolute;
-  right: 0;
-  bottom: 0; */
+  display: flex;
+  justify-content: right;
+  position: relative;
+  top: 417px;
 }
 
 .square {
   width: 485px;
   height: 126px;
+  border: 1px solid #e81616;
 }
 
 .div-elem {
   width: 100%;
   height: 300px;
   border: 1px solid #000;
+}
+
+.wrapper-social {
+  height: 150px;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-
-.elem {
-  width: 100px;
-  height: 20px;
-  border: 1px solid #000;
-}
-
-.maih-cyber {
-  width: 100%;
-  height: 2000px;
-  border: 1px solid #000;
+  justify-content: space-between;
+  border: 1px solid green;
 }
