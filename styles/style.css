@@ -6,3 +6,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: Archangelsk;
+  src: url("../assets/font/Archangelsk.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../assets/font/Roboto/Roboto-Italic.ttf");
+}
